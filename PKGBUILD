@@ -24,7 +24,7 @@ prepare() {
 build() {
   cd "$srcdir/$pkgname-$pkgver"
   ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var \
-              --disable-static --disable-schemas-compile
+              --disable-schemas-compile
   make
 }
 
