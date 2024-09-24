@@ -2,7 +2,7 @@
 
 pkgname=goobox
 pkgver=3.6.0
-pkgrel=3
+pkgrel=4
 pkgdesc='CD player and ripper for GNOME'
 arch=(x86_64)
 url='https://gitlab.gnome.org/Archive/goobox'
@@ -35,7 +35,7 @@ source=(
 )
 b2sums=(
   65a1934a42ae8526fa82d223aeea0ee5e7ed294af187dfd32aff91e028b71fcd477de519282d3d0c5191ff98e9a87ef2264d5c60b9b9857a1efcadbc497c839a
-  37b44bfda6f3b165a88c7f5042b4f7b04a3d7aa38d7b703d0972b76a7715a8052a5496d4b99290697b3e9393fe88daa5d14f70edb9481f092abc1050245b08b6
+  444be0fd47205d9291784f38685644b9d10b1cf1ffc295b644b98542bea84521c05d6e20b1b84dca50a953db8aa72d227ff5554e056821ba5a263eb99b3614a5
 )
 
 prepare() {
