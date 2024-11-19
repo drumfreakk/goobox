@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<interface>
+  <menu id="gears-menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Copy _Disk</attribute>
+        <attribute name="action">win.copy-disk</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Eject</attribute>
+        <attribute name="action">win.eject</attribute>
+        <attribute name="accel">j</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Properties</attribute>
+        <attribute name="action">win.properties</attribute>
+        <attribute name="accel"><![CDATA[<Control>Return]]></attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="action">app.play-all</attribute>
+        <attribute name="label" translatable="yes">Play _All</attribute>
+      </item>
+      <item>
+        <attribute name="action">app.repeat</attribute>
+        <attribute name="label" translatable="yes">_Repeat</attribute>
+      </item>
+      <item>
+        <attribute name="action">app.shuffle</attribute>
+        <attribute name="label" translatable="yes">S_huffle</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="action">app.preferences</attribute>
+        <attribute name="label" translatable="yes">_Preferences</attribute>
+      </item>
+      <item>
+        <attribute name="action">app.help</attribute>
+        <attribute name="label" translatable="yes">_Help</attribute>
+        <attribute name="accel">F1</attribute>
+      </item>
+      <item>
+        <attribute name="action">app.about</attribute>
+        <attribute name="label" translatable="yes">_About</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

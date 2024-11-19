@@ -1,0 +1,825 @@
+# translation of goobox.HEAD.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Pawan Chitrakar <pawan@mpp.org.np>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+# Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: goobox.HEAD.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-04 03:39+0100\n"
+"PO-Revision-Date: 2007-11-22 14:03+0545\n"
+"Last-Translator: Shyam Krishna Bal <balshyam24@yahoo.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/glade/cover_chooser.glade.h:1
+msgid "Choose a CD Cover"
+msgstr "सीडी आवरण रोज्नुहोस्"
+
+#: ../data/glade/cover_chooser.glade.h:2
+msgid "Found images:"
+msgstr "फेला परेका छविहरू:"
+
+#: ../data/glade/extract_dialog.glade.h:1 ../data/glade/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../data/glade/extract_dialog.glade.h:2
+msgid "<b>Extract</b>"
+msgstr "<b>झिक्नुहोस्</b>"
+
+#: ../data/glade/extract_dialog.glade.h:3
+msgid "Extract Tracks"
+msgstr "ट्रयाकहरू झिक्नुहोस्"
+
+#: ../data/glade/extract_dialog.glade.h:4
+msgid "_All tracks"
+msgstr "सबै ट्रयाकहरू"
+
+#: ../data/glade/extract_dialog.glade.h:5
+msgid "_Selected tracks"
+msgstr "चयन गरिएका ट्रयाकहरू"
+
+#: ../data/glade/format_dialog.glade.h:1
+msgid "Format Properties"
+msgstr "गुण ढाँचाबद्ध गर्नुहोस्"
+
+#: ../data/glade/preferences.glade.h:2
+msgid "<b>CD Drive</b>"
+msgstr "<b>सीडी ड्राइभ</b>"
+
+#: ../data/glade/preferences.glade.h:3
+msgid "<b>Destination folder</b>"
+msgstr "<b>गन्तब्य फोल्डर</b>"
+
+#: ../data/glade/preferences.glade.h:4
+msgid "<b>Output format</b>"
+msgstr "<b>निर्गत ढाँचा</b>"
+
+#: ../data/glade/preferences.glade.h:5
+msgid ""
+"<small><i>Free Lossless Audio Codec (FLAC) is an open source codec that "
+"compresses but does not degrade audio quality.</i></small>"
+msgstr "<small><i>फ्रि लसलेस अडियो कोडेक (FLAC) एउटा खुल्ला स्रोत कोडेक हो जसले सङ्कुचन गर्दछ तर अडियो गुणस्तर डिग्रेड गर्दैन ।</i></small>"
+
+#: ../data/glade/preferences.glade.h:6
+msgid ""
+"<small><i>Vorbis is an open source, lossy audio codec with high quality "
+"output at a lower file size than MP3.</i></small>"
+msgstr "<small><i>भर्विस MP3 भन्दा न्यून फाइल साइजको उच्च गुणस्तरयुक्त एउटा खुल्ला स्रोत, लसी अडियो कोडेक हो ।</i></small>"
+
+#: ../data/glade/preferences.glade.h:7
+msgid ""
+"<small><i>WAV+PCM is a lossless format that holds uncompressed, raw pulse-"
+"code modulated (PCM) audio.</i></small>"
+msgstr "<small><i>WAV+PCM नोक्सानविहिन ढाँचा हो जसले सङ्कुचन नगरिएको, मोडुलेट गरिएको कच्चा पल्स कोड (PCM) अडियो समात्दछ ।</i></small>"
+
+#: ../data/glade/preferences.glade.h:8
+msgid "Automatically play newly inserted discs"
+msgstr "स्वचालित रूपमा नयाँ तरीकाले घुसाइएको डिस्कहरू बजाउनुहोस्"
+
+#: ../data/glade/preferences.glade.h:9
+msgid "CD Player Preferences"
+msgstr "सीडी प्लेयर प्राथमिकता"
+
+#: ../data/glade/preferences.glade.h:10
+msgid "Choose destination folder"
+msgstr "गन्तब्य फोल्डर रोज्नुहोस्"
+
+#: ../data/glade/preferences.glade.h:11
+msgid "Extraction"
+msgstr "उद्धरण"
+
+#: ../data/glade/preferences.glade.h:12
+msgid "General"
+msgstr "साधारण"
+
+#: ../data/glade/preferences.glade.h:13
+msgid "_Save playlist"
+msgstr "प्ले सूची बचत गर्नुहोस्"
+
+#: ../data/glade/properties.glade.h:1
+msgid "No album found."
+msgstr "कुनै एल्बम फेला परेन ।"
+
+#: ../data/glade/properties.glade.h:2
+msgid "Properties"
+msgstr "गुण"
+
+#: ../data/glade/properties.glade.h:3
+msgid "Search for the remaining data"
+msgstr "बाँकी डेटाका लागि खोजी गर्नुहोस्"
+
+#: ../data/glade/properties.glade.h:4
+msgid ""
+"Single artist\n"
+"Various artists\n"
+msgstr ""
+"एउटा कलाकार\n"
+"विविध कलाकार\n"
+
+#: ../data/glade/properties.glade.h:7
+msgid "T_racks:"
+msgstr "ट्रयाक:"
+
+#: ../data/glade/properties.glade.h:8
+msgid "_Artist:"
+msgstr "कलाकार:"
+
+#: ../data/glade/properties.glade.h:9
+msgid "_Title:"
+msgstr "शीर्षक:"
+
+#: ../data/glade/properties.glade.h:10
+msgid "_Year:"
+msgstr "वर्ष:"
+
+#: ../data/glade/ripper_dialog.glade.h:1
+msgid "<big><b>Extracting tracks</b></big>"
+msgstr "<big><b>ट्रयाकहरू झिक्दै</b></big>"
+
+#: ../data/glade/ripper_dialog.glade.h:2
+msgid "Extracting Tracks"
+msgstr "ट्रयाकहरू झिक्दै"
+
+#: ../data/GNOME_Goobox.server.in.h:1
+msgid "Goobox Application"
+msgstr "गुबक्स अनुप्रयोग"
+
+#: ../data/GNOME_Goobox.server.in.h:2
+msgid "Goobox Application Factory"
+msgstr "गुबक्स अनुप्रयोग कारखाना"
+
+#: ../data/goobox.desktop.in.in.h:1 ../src/actions.c:209
+#: ../src/goo-window.c:2598 ../src/main.c:148 ../src/main.c:234
+msgid "CD Player"
+msgstr "सीडी प्लेयर"
+
+#: ../data/goobox.desktop.in.in.h:2
+msgid "Play and extract CDs"
+msgstr "सीडीहरू प्ले गर्नुहोस् र झिक्नुहोस्"
+
+#: ../data/goobox.schemas.in.h:1
+msgid "Possible values are: ogg, flac, mp3, wave."
+msgstr "सम्भाव्य मानहरू: ogg, flac, mp3, wave हुन् ।"
+
+#: ../data/goobox.schemas.in.h:2
+msgid "Possible values are: system, text_below, text_beside, text_only, icons_only."
+msgstr "सम्भाव्य मानहरू: system, text_below, text_beside, text_only, icons_only हुन् ।"
+
+#: ../src/actions.c:140
+msgid "Could not display help"
+msgstr "मद्दत प्रदर्शन गर्न सकेन"
+
+#.
+#. const char     *documenters [] = {
+#. NULL
+#. };
+#: ../src/actions.c:189
+msgid "translator_credits"
+msgstr "Mahesh Subedi<submanesh@hotmail.com>Jaydeep Bhusal <zaydeep@hotmail.com>"
+
+#: ../src/actions.c:211
+msgid "Copyright © 2004-2007 Free Software Foundation, Inc."
+msgstr "Copyright © 2004-2007 स्वतन्त्र सफ्टवेयर संघ, संस्था ।"
+
+#: ../src/actions.c:212 ../src/main.c:138
+msgid "Play CDs and save the tracks to disk as files"
+msgstr "सीडी प्ले गर्नुहोस् र फाइलको रूपमा डिस्कमा ट्रयाक बचत गर्नुहोस्"
+
+#: ../src/actions.c:329 ../src/actions.c:353 ../src/actions.c:376
+#: ../src/gtk-utils.c:797
+msgid "Could not execute command"
+msgstr "आदेश कार्यान्वयन गर्न सकेन"
+
+#: ../src/album-info.c:171
+msgid "Various"
+msgstr "विविध"
+
+#: ../src/bacon-cd-selection.c:194
+msgid "Unnamed CDROM"
+msgstr "नामकरण नगरिएको सीडीरोम"
+
+#: ../src/cd-drive.c:835
+#, c-format
+msgid "Unnamed SCSI Drive (%s)"
+msgstr "नामकरण नगरिएको SCSI ड्राइभ (%s)"
+
+#: ../src/cd-drive.c:1395
+msgid "File image"
+msgstr "फाइल छवि"
+
+#: ../src/dlg-cover-chooser.c:280
+#, c-format
+msgid "%u, loading image: %u"
+msgstr "%u, छवि लोड गर्दै: %u"
+
+#: ../src/dlg-cover-chooser.c:318
+msgid "Loading images"
+msgstr "छविहरू लोड गर्दैछ"
+
+#: ../src/dlg-cover-chooser.c:432 ../src/goo-window.c:3162
+msgid "Could not search for a cover on Internet"
+msgstr "इन्टरनेटमा एउटा आवरणका लागि खोजी गर्न सकेन"
+
+#: ../src/dlg-cover-chooser.c:439
+msgid "No image found"
+msgstr "कुनै छवि फेला परेन"
+
+#: ../src/dlg-cover-chooser.c:503 ../src/dlg-extract.c:133
+#: ../src/dlg-preferences.c:149 ../src/dlg-properties.c:155
+#, c-format
+msgid "Could not display help: %s"
+msgstr "मद्दत प्रदर्शन गर्न सकेन: %s"
+
+#: ../src/dlg-cover-chooser.c:726
+msgid "Searching images..."
+msgstr "छविहरू खोजी गर्दैछ..."
+
+#: ../src/dlg-extract.c:179
+#, c-format
+msgid ""
+"You need at least one of the following GStreamer plugins in order to extract "
+"CD tracks:\n"
+"\n"
+"• %s → Ogg Vorbis\n"
+"• %s → FLAC\n"
+"• %s → Waveform PCM"
+msgstr ""
+"सीडी ट्रयाकहरू झिक्नका लागि तपाईँलाई कम्तीमा पनि निम्न जिस्ट्रिमर प्लगइनहरू मध्ये एउटा "
+"चाहिन्छ:\n"
+"\n"
+"• %s → Ogg Vorbis\n"
+"• %s → FLAC\n"
+"• %s → Waveform PCM"
+
+#: ../src/dlg-extract.c:190
+msgid "No encoder available."
+msgstr "कुनै सङ्केतक उपलब्ध छैन ।"
+
+#: ../src/dlg-preferences.c:323 ../src/dlg-preferences.c:580
+msgid "Ogg Vorbis"
+msgstr "अग भर्बिस"
+
+#: ../src/dlg-preferences.c:335 ../src/dlg-preferences.c:583
+msgid "FLAC"
+msgstr "FLAC"
+
+#: ../src/dlg-preferences.c:347
+msgid "Waveform PCM"
+msgstr "वेभफर्म पीसीएम"
+
+#.
+#: ../src/dlg-preferences.c:374 ../src/dlg-preferences.c:606
+msgid ""
+"Vorbis is an open source, lossy audio codec with high quality output at a "
+"lower file size than MP3."
+msgstr "भर्विस MP3 भन्दा न्यून फाइल साइजमा उच्च गुणस्तर निर्गत सहितको एउटा खुल्ला स्रोत, लसी अडियो कोडेक हो ।"
+
+#: ../src/dlg-preferences.c:375 ../src/dlg-preferences.c:609
+msgid ""
+"Free Lossless Audio Codec (FLAC) is an open source codec that compresses but "
+"does not degrade audio quality."
+msgstr "फ्रि लसलेस अडियो कोडेक (FLAC) एउटा खुल्ला स्रोत कोडेक हो जसले सङ्कुचन गर्दछ तर अडियो गुणस्तरलाई डिग्रेड गर्दैन ।"
+
+#: ../src/dlg-preferences.c:376 ../src/dlg-preferences.c:612
+msgid ""
+"WAV+PCM is a lossless format that holds uncompressed, raw pulse-code "
+"modulated (PCM) audio."
+msgstr "WAV+PCM नोक्सानविहिन ढाँचा हो जसले सङ्कुचन नगरिएका, कच्चा पल्स कोड मोडुलेट गरिएको (पीसीएम) अडियो समात्दछ ।"
+
+#: ../src/dlg-preferences.c:560
+msgid "Faster compression"
+msgstr "द्रुततर सङ्कुचन"
+
+#: ../src/dlg-preferences.c:564
+msgid "Higher compression"
+msgstr "झन उच्च सङ्कुचन"
+
+#: ../src/dlg-preferences.c:569
+msgid "Smaller size"
+msgstr "झन सानो साइज"
+
+#: ../src/dlg-preferences.c:573
+msgid "Higher quality"
+msgstr "उच्च गुण"
+
+#: ../src/dlg-preferences.c:594
+msgid "Quality:"
+msgstr "गुणस्तर:"
+
+#: ../src/dlg-preferences.c:597
+msgid "Compression level:"
+msgstr "सङ्कुचन स्तर:"
+
+#: ../src/dlg-properties.c:218
+#, c-format
+msgid "Album %d of %d"
+msgstr "%d को %d एल्बम"
+
+#: ../src/dlg-properties.c:274
+#, c-format
+msgid "Search failed: %s\n"
+msgstr "खोजी असफल भयो: %s\n"
+
+#: ../src/dlg-properties.c:284
+msgid "No album found"
+msgstr "कुनै एल्बम फेला परेन"
+
+#: ../src/dlg-properties.c:345 ../src/goo-window.c:595
+msgid "#"
+msgstr "#"
+
+#: ../src/dlg-properties.c:363 ../src/goo-window.c:620
+msgid "Title"
+msgstr "शीर्षक"
+
+#: ../src/dlg-properties.c:396 ../src/goo-window.c:643
+msgid "Artist"
+msgstr "कलाकार"
+
+#: ../src/dlg-ripper.c:201
+#, c-format
+msgid "(%d:%02d:%02d Remaining)"
+msgstr "(%d:%02d:%02d बाँकी)"
+
+#: ../src/dlg-ripper.c:203
+#, c-format
+msgid "(%d:%02d Remaining)"
+msgstr "(%d:%02d बाँकी)"
+
+#: ../src/dlg-ripper.c:208
+#, c-format
+msgid "Extracting track: %d of %d %s"
+msgstr "ट्रयाक झिक्दै: %d को %d %s"
+
+#: ../src/dlg-ripper.c:245
+msgid "Could not extract the tracks"
+msgstr "ट्रयाकहरू झिक्न सकेन"
+
+#: ../src/dlg-ripper.c:410
+msgid "Could not display the destination folder"
+msgstr "गन्तब्य फोल्डर प्रदर्शन गर्न सकेन"
+
+#: ../src/dlg-ripper.c:556
+msgid "Tracks extracted successfully"
+msgstr "ट्रयाकहरू सफलतापूर्वक झिकियो"
+
+#: ../src/dlg-ripper.c:558
+msgid "_View destination folder"
+msgstr "गन्तव्य फोल्डर हेर्नुहोस्"
+
+#: ../src/dlg-ripper.c:572
+#, c-format
+msgid "<i>Extracting \"%s\"</i>"
+msgstr "<i>झिक्दै \"%s\"</i>"
+
+#: ../src/dlg-ripper.c:585
+msgid "Could not extract tracks"
+msgstr "ट्रयाकहरू झिक्न सकेन"
+
+#: ../src/dlg-ripper.c:586
+#, c-format
+msgid ""
+"Could not create folder \"%s\"\n"
+"\n"
+"%s"
+msgstr ""
+"फोल्डर सिर्जना गर्न सकेन \"%s\"\n"
+"\n"
+"%s"
+
+#: ../src/dlg-ripper.c:616
+msgid "Ripped with CD Player"
+msgstr "सीडी प्लेयरसहित निकालियो"
+
+#: ../src/eggtrayicon.c:118
+msgid "Orientation"
+msgstr "अभिमुखीकरण"
+
+#: ../src/eggtrayicon.c:119
+msgid "The orientation of the tray."
+msgstr "ट्रेको अभिमुखीकरण ।"
+
+#: ../src/file-utils.c:664
+msgid "Cannot find a terminal, using xterm, even if it may not work"
+msgstr "एक्सटर्म प्रयोग गरेर एउटा टर्मिनल फेला पार्न सकेन, यद्यपि यसले काम नगर्न सक्दछ"
+
+#: ../src/goo-cdrom-bsd.c:140 ../src/goo-cdrom-linux.c:121
+#: ../src/goo-cdrom-solaris.c:123
+msgid "Error reading CD"
+msgstr "सीडी पढ्दा त्रुटि"
+
+#: ../src/goo-cdrom.c:323
+msgid "The specified device is not valid"
+msgstr "निर्दिष्ट गरिएको यन्त्र वैध छैन"
+
+#: ../src/goo-player.c:497
+msgid "Drive not ready"
+msgstr "ड्राइभ तयार छैन"
+
+#: ../src/goo-player.c:501
+msgid "Tray open"
+msgstr "ट्रे खोल्नुहोस्"
+
+#: ../src/goo-player.c:502 ../src/goo-player.c:506
+msgid "No disc"
+msgstr "डिस्क छैन"
+
+#: ../src/goo-player.c:510 ../src/goo-window.c:1454
+msgid "Data Disc"
+msgstr "डेटा डिस्क"
+
+#: ../src/goo-player.c:610
+msgid "Invalid device"
+msgstr "अवैध यन्त्र"
+
+#: ../src/goo-player-info.c:247 ../src/goo-player-info.c:274
+#: ../src/goo-player-info.c:644
+#, c-format
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#: ../src/goo-player-info.c:520
+msgid "Click here to choose a cover for this CD"
+msgstr "यो सीडीका लागि एउटा आवरण रोज्न यहाँ क्लिक गर्नुहोस्"
+
+#: ../src/goo-player-info.c:760
+msgid "Paused"
+msgstr "पज गरियो"
+
+#: ../src/goo-player-info.c:769
+msgid "Ejecting CD"
+msgstr "सीडी निकाल्दै"
+
+#: ../src/goo-player-info.c:773
+msgid "Checking CD drive"
+msgstr "सीडी ड्राइभ जाँच गर्दै"
+
+#: ../src/goo-player-info.c:777 ../src/goo-player-info.c:781
+msgid "Reading CD"
+msgstr "सीडी पढ्दै"
+
+#: ../src/goo-player-info.c:797 ../src/goo-window.c:1458
+msgid "Audio CD"
+msgstr "अडियो सीडी"
+
+#: ../src/goo-stock.c:40
+msgid "_Extract"
+msgstr "झिक्नुहोस्"
+
+#: ../src/goo-stock.c:41
+msgid "_Reset"
+msgstr "रिसेट गर्नुहोस्"
+
+#: ../src/goo-stock.c:42 ../src/goo-stock.c:43 ../src/goo-stock.c:44
+#: ../src/goo-stock.c:45
+msgid "V_olume"
+msgstr "भोल्युम"
+
+#: ../src/goo-window.c:57
+msgid "Hide _tracks"
+msgstr "ट्रयाकहरू लुकाउनुहोस्"
+
+#: ../src/goo-window.c:58
+msgid "Show _tracks"
+msgstr "ट्रयाकहरू देखाउनुहोस्"
+
+#: ../src/goo-window.c:186
+#, c-format
+msgid "%d track"
+msgid_plural "%d tracks"
+msgstr[0] "%d ट्रयाक"
+msgstr[1] "%d ट्रयाककहरू"
+
+#: ../src/goo-window.c:667
+msgid "Length"
+msgstr "लम्बाइ"
+
+#: ../src/goo-window.c:1317 ../src/ui.h:65
+msgid "_Pause"
+msgstr "पज गर्नुहोस्"
+
+#: ../src/goo-window.c:1318 ../src/ui.h:66
+msgid "Pause"
+msgstr "पज गर्नुहोस्"
+
+#: ../src/goo-window.c:1451
+msgid "No Disc"
+msgstr "डिस्क छैन"
+
+#: ../src/goo-window.c:1734 ../src/goo-window.c:1753 ../src/ui.h:53
+#: ../src/ui.h:57 ../src/ui.h:61
+msgid "_Play"
+msgstr "प्ले गर्नुहोस्"
+
+#: ../src/goo-window.c:1735 ../src/goo-window.c:1754 ../src/ui.h:58
+msgid "Play"
+msgstr "प्ले गर्नुहोस्"
+
+#: ../src/goo-window.c:2918
+msgid "Could not eject the CD"
+msgstr "सीडी निकाल्न सकेन"
+
+#: ../src/goo-window.c:2931
+msgid "Could not read drive"
+msgstr "ड्राइभ पढ्न सकेन"
+
+#: ../src/goo-window.c:3013
+msgid "Could not load image"
+msgstr "छवि लोड गर्न सकेन"
+
+#: ../src/goo-window.c:3036
+msgid "Could not save cover image"
+msgstr "आवरण छवि बचत गर्न सकेन"
+
+#: ../src/goo-window.c:3102
+msgid "Choose CD Cover Image"
+msgstr "सी.डी. आवरण छवि रोज्नुहोस्"
+
+#: ../src/goo-window.c:3121
+msgid "Images"
+msgstr "छविहरू"
+
+#: ../src/goo-window.c:3129
+msgid "All files"
+msgstr "सबै फाइलहरू"
+
+#: ../src/goo-window.c:3163
+msgid ""
+"You have to enter the artist and album names in order to find the album "
+"cover."
+msgstr "एल्बम आवरण फेला पार्नका लागि तपाईँले कलाकार र एल्बमको नामहरू प्रविष्ट गर्नु पर्दछ ।"
+
+#: ../src/goo-window.c:3202
+msgid "_Show Window"
+msgstr "सञ्झ्याल देखाउनुहोस्"
+
+#: ../src/goo-window.c:3203
+msgid "Show the main window"
+msgstr "मुख्य सञ्झ्याल देखाउनुहोस्"
+
+#: ../src/goo-window.c:3215 ../src/ui.h:125
+msgid "_Hide Window"
+msgstr "सञ्झ्याल लुकाउनुहोस्"
+
+#. "H"
+#: ../src/goo-window.c:3216 ../src/ui.h:126
+msgid "Hide the main window"
+msgstr "मुख्य सञ्झ्याल लुकाउनुहोस्"
+
+#: ../src/goo-volume-tool-button.c:185
+#, c-format
+msgid "Volume level: %3.0f%%"
+msgstr "भोल्युम स्तर: %3.0f%%"
+
+#: ../src/goo-volume-tool-button.c:747
+msgid "+"
+msgstr "+"
+
+#: ../src/goo-volume-tool-button.c:789
+msgid "-"
+msgstr "-"
+
+#: ../src/goo-volume-tool-button.c:838
+msgid "Change the volume level"
+msgstr "भोल्युम स्तर परिवर्तन गर्नुहोस्"
+
+#: ../src/goo-volume-tool-button.c:882
+msgid "Volume"
+msgstr "भोल्युम"
+
+#: ../src/gth-image-list.c:3520
+msgid "No image"
+msgstr "छवि छैन"
+
+#: ../src/gtk-file-chooser-preview.c:203
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: ../src/gtk-file-chooser-preview.c:328
+msgid "pixels"
+msgstr "पिक्सेल"
+
+#: ../src/main.c:84
+msgid "CD device to be used"
+msgstr "प्रयोग गरिनु पर्ने सीडी यन्त्र"
+
+#: ../src/main.c:85
+msgid "DEVICE_PATH"
+msgstr "DEVICE_PATH"
+
+#: ../src/main.c:87
+msgid "Play the CD on startup"
+msgstr "सुरुआतमा सीडी प्ले गर्नुहोस्"
+
+#: ../src/main.c:90 ../src/ui.h:54
+msgid "Play/Pause"
+msgstr "प्ले गर्नुहोस्/पज गर्नुहोस्"
+
+#: ../src/main.c:93 ../src/ui.h:70
+msgid "Stop playing"
+msgstr "प्ले भइरहेको रोक्नुहोस्"
+
+#: ../src/main.c:96 ../src/ui.h:74
+msgid "Play the next track"
+msgstr "पछिल्लो ट्रयाक प्ले गर्नुहोस्"
+
+#: ../src/main.c:99 ../src/ui.h:78
+msgid "Play the previous track"
+msgstr "अघिल्लो ट्रयाक प्ले गर्नुहोस्"
+
+#: ../src/main.c:102
+msgid "Eject the CD"
+msgstr "सीडी निकाल्नुहोस्"
+
+#: ../src/main.c:105
+msgid "Hide/Show the main window"
+msgstr "मुख्य सञ्झ्याल लुकाउनुहोस्/देखाउनुहोस्"
+
+#: ../src/main.c:108
+msgid "Volume Up"
+msgstr "भोल्युम बढाउनुहोस्"
+
+#: ../src/main.c:111
+msgid "Volume Down"
+msgstr "भोल्युम घटाउनुहोस्"
+
+#: ../src/main.c:114 ../src/ui.h:110
+msgid "Quit the application"
+msgstr "अनुप्रयोग अन्त्य गर्नुहोस्"
+
+#: ../src/main.c:347
+msgid "Cannot start the CD player"
+msgstr "सीडी प्लेयर सुरु गर्न सकेन"
+
+#: ../src/main.c:348
+msgid "In order to read CDs you have to install the gstreamer base plugins"
+msgstr "सीडी पढ्न तपाईँले जिस्ट्रिमर आधारित प्लगइन स्थापना गर्नु पर्दछ"
+
+#: ../src/main.c:705
+msgid "Next"
+msgstr "पछिल्लो"
+
+#: ../src/main.c:711
+msgid "Stop"
+msgstr "रोक्नुहोस्"
+
+#: ../src/track-info.c:122
+#, c-format
+msgid "Track %u"
+msgstr "ट्रयाक %u"
+
+#: ../src/ui.h:34
+msgid "_Disc"
+msgstr "डिस्क"
+
+#: ../src/ui.h:35
+msgid "_Edit"
+msgstr "सम्पादन"
+
+#: ../src/ui.h:36
+msgid "_View"
+msgstr "दृश्य"
+
+#: ../src/ui.h:37
+msgid "_Help"
+msgstr "मद्दत"
+
+#: ../src/ui.h:38
+msgid "C_over"
+msgstr "आवरण"
+
+#: ../src/ui.h:42
+msgid "Information about the program"
+msgstr "कार्यक्रमका बारेमा जानकारी"
+
+#: ../src/ui.h:46
+msgid "Display the manual"
+msgstr "म्यानुअल प्रदर्शन गर्नुहोस्"
+
+#: ../src/ui.h:49
+msgid "_Keyboard shortcuts"
+msgstr "कुञ्जीपाटी सर्टकटहरू"
+
+#: ../src/ui.h:62
+msgid "Play this track"
+msgstr "यो ट्रयाक प्ले गर्नुहोस्"
+
+#: ../src/ui.h:69
+msgid "_Stop"
+msgstr "रोक्नुहोस्"
+
+#: ../src/ui.h:73
+msgid "_Next"
+msgstr "पछिल्लो"
+
+#: ../src/ui.h:77
+msgid "Pre_v"
+msgstr "अघिल्लो"
+
+#: ../src/ui.h:81 ../src/ui.h:85
+msgid "_Eject"
+msgstr "निकाल्नुहोस्"
+
+#: ../src/ui.h:82 ../src/ui.h:86
+msgid "Eject the disc"
+msgstr "सीडी निकाल्नुहोस्"
+
+#: ../src/ui.h:90
+msgid "Edit various preferences"
+msgstr "विविध प्राथमिकताहरू सम्पादन गर्नुहोस्"
+
+#: ../src/ui.h:93
+msgid "_Copy Disc"
+msgstr "डिस्क प्रतिलिपि बनाउनुहोस्"
+
+#: ../src/ui.h:94
+msgid "Copy the content of this disc on another disc"
+msgstr "अर्को डिस्कमा डिस्कको सामग्री प्रतिलिपि बनाउँनुहोस्"
+
+#: ../src/ui.h:97 ../src/ui.h:101
+msgid "E_xtract Tracks"
+msgstr "ट्रयाकहरू झिक्नुहोस्"
+
+#: ../src/ui.h:98
+msgid "Save the tracks to disk as files"
+msgstr "फाइलहरूको रूपमा ट्रयाकहरू डिस्कमा बचत गर्नुहोस्"
+
+#: ../src/ui.h:102
+msgid "Save the selected tracks to disk as files"
+msgstr "फाइलहरूको रूपमा चयन गरिएका ट्रयाकहरू डिस्कमा बचत गर्नुहोस्"
+
+#: ../src/ui.h:106
+msgid "Edit the disc artist, album and the tracks titles"
+msgstr "डिस्क कलाकार, एल्बम र ट्रयाक शीर्षकहरू सम्पादन गर्नुहोस्"
+
+#: ../src/ui.h:113
+msgid "_Choose from Disk"
+msgstr "डिस्कबाट रोज्नुहोस्"
+
+#: ../src/ui.h:114
+msgid "Choose a disc cover from the local disk"
+msgstr "स्थानीय डिस्कबाट एउटा डिस्क आवरण रोज्नुहोस्"
+
+#: ../src/ui.h:117
+msgid "_Search on Internet"
+msgstr "इन्टरनेटमा खोजी गर्नुहोस्"
+
+#: ../src/ui.h:118
+msgid "Search for a disc cover on Internet"
+msgstr "इन्टरनेटमा एउटा डिस्क आवरणका लागि खोजी गर्नुहोस्"
+
+#: ../src/ui.h:122
+msgid "Remove current disc cover"
+msgstr "हालको डिस्क आवरण हटाउनुहोस्"
+
+#: ../src/ui.h:138
+msgid "_Toolbar"
+msgstr "उपकरणपट्टी"
+
+#: ../src/ui.h:139
+msgid "View the main toolbar"
+msgstr "मुख्य उपकरणपट्टी हेर्नुहोस्"
+
+#: ../src/ui.h:143
+msgid "Stat_usbar"
+msgstr "वस्तुस्थितिपट्टि"
+
+#: ../src/ui.h:144
+msgid "View the statusbar"
+msgstr "वस्तुस्थितिपट्टी हेर्नुहोस्"
+
+#: ../src/ui.h:148
+msgid "Play _All"
+msgstr "सबै प्ले गर्नुहोस्"
+
+#: ../src/ui.h:149
+msgid "Play all tracks"
+msgstr "सबै ट्रयाकहरू प्ले गर्नुहोस्"
+
+#: ../src/ui.h:153
+msgid "_Repeat"
+msgstr "दोहोर्याउनुहोस्"
+
+#: ../src/ui.h:154
+msgid "Restart playing when finished"
+msgstr "समाप्त भएपछि प्ले गर्न फेरि सुरु गर्नुहोस्"
+
+#: ../src/ui.h:158
+msgid "S_huffle"
+msgstr "मिसाउनुहोस्"
+
+#: ../src/ui.h:159
+msgid "Play tracks in a random order"
+msgstr "एउटा अनियमित क्रममा ट्रयाकहरू प्ले गर्नुहोस्"
+

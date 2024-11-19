@@ -1,0 +1,46 @@
+2008-04-24  Jens Seidel  <jseidel@svn.gnome.org>
+
+	* Makefile.am: Added de to DOC_LINGUAS.
+	* de/de.po: Added German translation.
+
+2008-03-18  Claude Paroz  <claude@2xlibre.net>
+
+	* Makefile.am: Added fr to DOC_LINGUAS.
+	* fr/fr.po: Added French translation.
+
+2007-12-31  Yannig Marchegay <yannig@marchegay.org>
+
+	* oc.po: Updated Occitan translation.
+
+2007-10-14  Yannig Marchegay  <yannig@marchegay.org>
+
+	* configure.in: Added 'oc' to ALL_LINGUAS.
+
+2007-09-23  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+
+        * es/es.po: Updated Spanish translation.
+
+2007-08-02  Jordi Mas <jmas@softcatala.org>
+
+	* ca/ca.po: Added Catalan translation by Joan Duran <jodufi@gmail.com>
+	* Makefile.am: Added ca to DOC_LINGUAS
+
+2007-07-19  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+
+        * es/es.po: Added Spanish translation by Jose Sanchez Moreno.
+	* Makefile.am: Added es to DOC_LINGUAS.
+
+2007-05-14  Daniel Nylander <po@danielnylander.se>
+
+	* sv/sv.po: Updated Swedish translation.
+
+2006-11-16  Daniel Nylander <po@danielnylander.se>
+
+	* sv/sv.po: Added Swedish translation.
+	* Makefile.am: Added sv to DOC_LINGUAS.
+
+2005-08-01  Tommi Vainikainen  <thv@iki.fi>
+
+	* Makefile.am, C/Makefile.am, C/goobox-C.omf, goobox.omf.in,
+	C/goobox.xml, .cvsignore: Migrated to gnome-doc-utils.
+
