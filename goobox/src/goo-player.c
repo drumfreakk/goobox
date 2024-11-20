@@ -38,7 +38,7 @@
 #define REFRESH_RATE 5
 #define PROGRESS_DELAY 400
 #define QUEUE_SIZE 16384U /*131072U*/
-#define PIPELINE_VOLUME(x) ((pow(1.05, x) - pow(1.05, 0)) / pow(1.05, 100))
+#define PIPELINE_VOLUME(x) ((pow(1.05, x) - 1) / (pow(1.05, 90) - 1))
 
 
 struct _GooPlayerPrivate {
