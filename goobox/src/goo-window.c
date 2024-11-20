@@ -1183,13 +1183,13 @@ notify_current_state_cb (gpointer user_data)
 		g_string_append_printf (info, "%s", window->priv->album->title);
 	}
 
-#ifdef ENABLE_NOTIFICATIONS
-	if (goo_player_get_state (goo_window_get_player (window)) == GOO_PLAYER_STATE_PLAYING)
-		system_notify (window,
-			       "new-track",
-			       window->priv->current_track->title,
-			       (strlen (info->str) > 0) ? info->str : NULL);
-#endif
+//#ifdef ENABLE_NOTIFICATIONS
+//	if (goo_player_get_state (goo_window_get_player (window)) == GOO_PLAYER_STATE_PLAYING)
+//		system_notify (window,
+//			       "new-track",
+//			       window->priv->current_track->title,
+//			       (strlen (info->str) > 0) ? info->str : NULL);
+//#endif
 
 
 	g_string_free (info, TRUE);
