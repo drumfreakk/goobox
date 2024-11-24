@@ -2350,7 +2350,7 @@ goo_window_construct (GooWindow    *window,
 		gtk_scale_button_set_adjustment (GTK_SCALE_BUTTON (button),
 						 gtk_adjustment_new (0.0,
 								     0.0,
-								     100.0,
+								     120.0,
 								     1.0,
 								     5.0,
 								     0.0));
