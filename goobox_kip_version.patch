@@ -53,17 +53,6 @@ diff --unified --recursive --text '--exclude=*.po' official/meson_options.txt go
 +  value : true,
    description : 'Disable current track notification'
  )
-diff --unified --recursive --text '--exclude=*.po' official/po/LINGUAS goobox/po/LINGUAS
---- official/po/LINGUAS	2025-03-16 20:14:17.985628255 +0100
-+++ goobox/po/LINGUAS	2024-10-13 11:36:08.055817190 +0200
-@@ -42,6 +42,7 @@
- sq
- sv
- tr
-+uk
- vi 
- zh_CN
- zh_TW
 diff --unified --recursive --text '--exclude=*.po' official/src/goo-application.c goobox/src/goo-application.c
 --- official/src/goo-application.c	2025-03-16 20:14:17.991628257 +0100
 +++ goobox/src/goo-application.c	2024-10-13 11:46:37.732680768 +0200

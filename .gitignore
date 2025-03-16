@@ -1,1 +1,4 @@
-build/
+pkg/
+src/
+goobox/
+*pkg.tar.xz

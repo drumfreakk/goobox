@@ -33,9 +33,8 @@ source=(
   "git+https://gitlab.gnome.org/Archive/goobox.git#tag=$pkgver"
   goobox_kip_version.patch
 )
-b2sums=(
-  65a1934a42ae8526fa82d223aeea0ee5e7ed294af187dfd32aff91e028b71fcd477de519282d3d0c5191ff98e9a87ef2264d5c60b9b9857a1efcadbc497c839a
-  fbe84dc75fb139abe6681fa77c0e360ca8a0c2fb24c899cd41ee6cfea77af2edc93f30550b0f0c1c5c89918db60ab58298ee46ef65018a92dc7b4a44435ebb25
+b2sums=(65a1934a42ae8526fa82d223aeea0ee5e7ed294af187dfd32aff91e028b71fcd477de519282d3d0c5191ff98e9a87ef2264d5c60b9b9857a1efcadbc497c839a
+        67b88a651c83cf940e8cc3a08b2251df30cac12b1d50ca7451ad77ef2b7c22a8f72ffd3e476193683e2ccb86ca56a4174b2c6d973fd46de5b39829c6e372b7e2
 )
 
 prepare() {
