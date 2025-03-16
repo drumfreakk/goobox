@@ -1,0 +1,134 @@
+diff --unified --recursive --text '--exclude=*.po' official/data/org.gnome.Goobox.desktop.in.in goobox/data/org.gnome.Goobox.desktop.in.in
+--- official/data/org.gnome.Goobox.desktop.in.in	2025-03-16 20:14:17.980972250 +0100
++++ goobox/data/org.gnome.Goobox.desktop.in.in	2024-10-13 11:36:08.052483855 +0200
+@@ -10,8 +10,4 @@
+ StartupNotify=true
+ Terminal=false
+ Type=Application
+-X-GNOME-Bugzilla-Bugzilla=GNOME
+-X-GNOME-Bugzilla-Product=goobox
+-X-GNOME-Bugzilla-Component=general
+-X-GNOME-Bugzilla-Version=@VERSION@
+ X-GNOME-UsesNotifications=true
+diff --unified --recursive --text '--exclude=*.po' official/help/C/preferences.page goobox/help/C/preferences.page
+--- official/help/C/preferences.page	2025-03-16 20:14:17.981872419 +0100
++++ goobox/help/C/preferences.page	2024-10-13 11:36:08.052483855 +0200
+@@ -30,7 +30,7 @@
+     <gui style="button">Apply</gui> button.
+   </p>
+ 
+-  <section>
++  <section id="general">
+     <title>General Tab</title>
+     <p>This tab allows you to set the following options:</p>
+     <list>
+@@ -42,7 +42,7 @@
+   </section>
+ 
+ 
+-  <section>
++  <section id="extraction">
+     <title>Extraction Tab</title>
+     <p>This tab allows you to set the extraction options:</p>
+     <list>
+diff --unified --recursive --text '--exclude=*.po' official/help/C/shortcuts.page goobox/help/C/shortcuts.page
+--- official/help/C/shortcuts.page	2025-03-16 20:14:17.981872419 +0100
++++ goobox/help/C/shortcuts.page	2024-10-13 11:36:08.052483855 +0200
+@@ -1,6 +1,6 @@
+ <page xmlns="http://projectmallard.org/1.0/"
+       type="topic"
+-      id="goobox-keyboard-shortcuts">
++      id="shortcuts">
+   <info>
+     <link type="guide" xref="index" />
+     <title type="sort">1</title>
+diff --unified --recursive --text '--exclude=*.po' official/meson_options.txt goobox/meson_options.txt
+--- official/meson_options.txt	2025-03-16 20:14:17.985415798 +0100
++++ goobox/meson_options.txt	2024-10-13 11:45:09.755988573 +0200
+@@ -12,6 +12,6 @@
+ 
+ option('disable-libnotify',
+   type : 'boolean',
+-  value : false,
++  value : true,
+   description : 'Disable current track notification'
+ )
+diff --unified --recursive --text '--exclude=*.po' official/po/LINGUAS goobox/po/LINGUAS
+--- official/po/LINGUAS	2025-03-16 20:14:17.985628255 +0100
++++ goobox/po/LINGUAS	2024-10-13 11:36:08.055817190 +0200
+@@ -42,6 +42,7 @@
+ sq
+ sv
+ tr
++uk
+ vi 
+ zh_CN
+ zh_TW
+diff --unified --recursive --text '--exclude=*.po' official/src/goo-application.c goobox/src/goo-application.c
+--- official/src/goo-application.c	2025-03-16 20:14:17.991628257 +0100
++++ goobox/src/goo-application.c	2024-10-13 11:46:37.732680768 +0200
+@@ -387,6 +387,7 @@
+ 	G_APPLICATION_CLASS (goo_application_parent_class)->startup (application);
+ 
+ 	g_set_application_name (_("CD Player"));
++	g_set_prgname ("org.gnome.Goobox");
+ 	gtk_window_set_default_icon_name ("goobox");
+ 
+ 	initialize_app_menu (application);
+diff --unified --recursive --text '--exclude=*.po' official/src/goo-player.c goobox/src/goo-player.c
+--- official/src/goo-player.c	2025-03-16 20:14:17.991628257 +0100
++++ goobox/src/goo-player.c	2024-11-24 21:38:46.788793688 +0100
+@@ -38,7 +38,7 @@
+ #define REFRESH_RATE 5
+ #define PROGRESS_DELAY 400
+ #define QUEUE_SIZE 16384U /*131072U*/
+-#define PIPELINE_VOLUME(x) ((x) / 100.0)
++#define PIPELINE_VOLUME(x) ((pow(1.05, x) - 1) / (pow(1.05, 100) - 1))
+ 
+ 
+ struct _GooPlayerPrivate {
+diff --unified --recursive --text '--exclude=*.po' official/src/goo-window.c goobox/src/goo-window.c
+--- official/src/goo-window.c	2025-03-16 20:14:17.991628257 +0100
++++ goobox/src/goo-window.c	2024-11-24 21:46:02.599167517 +0100
+@@ -1183,11 +1183,14 @@
+ 		g_string_append_printf (info, "%s", window->priv->album->title);
+ 	}
+ 
+-	if (goo_player_get_state (goo_window_get_player (window)) == GOO_PLAYER_STATE_PLAYING)
+-		system_notify (window,
+-			       "new-track",
+-			       window->priv->current_track->title,
+-			       (strlen (info->str) > 0) ? info->str : NULL);
++//#ifdef ENABLE_NOTIFICATIONS
++//	if (goo_player_get_state (goo_window_get_player (window)) == GOO_PLAYER_STATE_PLAYING)
++//		system_notify (window,
++//			       "new-track",
++//			       window->priv->current_track->title,
++//			       (strlen (info->str) > 0) ? info->str : NULL);
++//#endif
++
+ 
+ 	g_string_free (info, TRUE);
+ 
+@@ -2347,9 +2350,9 @@
+ 		gtk_scale_button_set_adjustment (GTK_SCALE_BUTTON (button),
+ 						 gtk_adjustment_new (0.0,
+ 								     0.0,
+-								     100.0,
++								     120.0,
+ 								     1.0,
+-								     10.0,
++								     5.0,
+ 								     0.0));
+ 		gtk_scale_button_set_value (GTK_SCALE_BUTTON (button), goo_player_get_audio_volume (window->priv->player));
+ 		gtk_widget_show (button);
+diff --unified --recursive --text '--exclude=*.po' official/src/preferences.h goobox/src/preferences.h
+--- official/src/preferences.h	2025-03-16 20:14:17.992628257 +0100
++++ goobox/src/preferences.h	2024-10-13 12:40:51.394309374 +0200
+@@ -54,4 +54,6 @@
+ #define PREF_ENCODER_FLAC_COMPRESSION "flac-compression"
+ #define PREF_ENCODER_MP3_QUALITY      "mp3-quality"
+ 
++#define ENABLE_NOTIFICATIONS
++
+ #endif /* PREFERENCES_H */
