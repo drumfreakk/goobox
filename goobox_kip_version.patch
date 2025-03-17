@@ -1,7 +1,15 @@
-diff --unified --recursive --text '--exclude=*.po' official/data/org.gnome.Goobox.desktop.in.in goobox/data/org.gnome.Goobox.desktop.in.in
---- official/data/org.gnome.Goobox.desktop.in.in	2025-03-16 20:14:17.980972250 +0100
-+++ goobox/data/org.gnome.Goobox.desktop.in.in	2024-10-13 11:36:08.052483855 +0200
-@@ -10,8 +10,4 @@
+diff -ura goobox/data/org.gnome.Goobox.desktop.in.in goobox_new/data/org.gnome.Goobox.desktop.in.in
+--- goobox/data/org.gnome.Goobox.desktop.in.in	2025-03-17 22:06:57.605413980 +0100
++++ goobox_new/data/org.gnome.Goobox.desktop.in.in	2025-03-17 22:10:50.819778893 +0100
+@@ -3,15 +3,11 @@
+ Comment=Play and extract CDs
+ Categories=GNOME;GTK;AudioVideo;Audio;
+ Encoding=UTF-8
+-Exec=goobox
++Exec=env GTK_THEME=Adwaita:dark goobox
+ # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+ Icon=goobox
+ MimeType=x-content/audio-cdda;
  StartupNotify=true
  Terminal=false
  Type=Application
@@ -10,9 +18,9 @@ diff --unified --recursive --text '--exclude=*.po' official/data/org.gnome.Goobo
 -X-GNOME-Bugzilla-Component=general
 -X-GNOME-Bugzilla-Version=@VERSION@
  X-GNOME-UsesNotifications=true
-diff --unified --recursive --text '--exclude=*.po' official/help/C/preferences.page goobox/help/C/preferences.page
---- official/help/C/preferences.page	2025-03-16 20:14:17.981872419 +0100
-+++ goobox/help/C/preferences.page	2024-10-13 11:36:08.052483855 +0200
+diff -ura goobox/help/C/preferences.page goobox_new/help/C/preferences.page
+--- goobox/help/C/preferences.page	2025-03-17 22:06:57.605413980 +0100
++++ goobox_new/help/C/preferences.page	2025-03-17 22:09:02.404427080 +0100
 @@ -30,7 +30,7 @@
      <gui style="button">Apply</gui> button.
    </p>
@@ -31,9 +39,9 @@ diff --unified --recursive --text '--exclude=*.po' official/help/C/preferences.p
      <title>Extraction Tab</title>
      <p>This tab allows you to set the extraction options:</p>
      <list>
-diff --unified --recursive --text '--exclude=*.po' official/help/C/shortcuts.page goobox/help/C/shortcuts.page
---- official/help/C/shortcuts.page	2025-03-16 20:14:17.981872419 +0100
-+++ goobox/help/C/shortcuts.page	2024-10-13 11:36:08.052483855 +0200
+diff -ura goobox/help/C/shortcuts.page goobox_new/help/C/shortcuts.page
+--- goobox/help/C/shortcuts.page	2025-03-17 22:06:57.605413980 +0100
++++ goobox_new/help/C/shortcuts.page	2025-03-17 22:09:02.405863184 +0100
 @@ -1,6 +1,6 @@
  <page xmlns="http://projectmallard.org/1.0/"
        type="topic"
@@ -42,9 +50,9 @@ diff --unified --recursive --text '--exclude=*.po' official/help/C/shortcuts.pag
    <info>
      <link type="guide" xref="index" />
      <title type="sort">1</title>
-diff --unified --recursive --text '--exclude=*.po' official/meson_options.txt goobox/meson_options.txt
---- official/meson_options.txt	2025-03-16 20:14:17.985415798 +0100
-+++ goobox/meson_options.txt	2024-10-13 11:45:09.755988573 +0200
+diff -ura goobox/meson_options.txt goobox_new/meson_options.txt
+--- goobox/meson_options.txt	2025-03-17 22:06:57.568413975 +0100
++++ goobox_new/meson_options.txt	2025-03-17 22:09:02.406562987 +0100
 @@ -12,6 +12,6 @@
  
  option('disable-libnotify',
@@ -53,9 +61,9 @@ diff --unified --recursive --text '--exclude=*.po' official/meson_options.txt go
 +  value : true,
    description : 'Disable current track notification'
  )
-diff --unified --recursive --text '--exclude=*.po' official/src/goo-application.c goobox/src/goo-application.c
---- official/src/goo-application.c	2025-03-16 20:14:17.991628257 +0100
-+++ goobox/src/goo-application.c	2024-10-13 11:46:37.732680768 +0200
+diff -ura goobox/src/goo-application.c goobox_new/src/goo-application.c
+--- goobox/src/goo-application.c	2025-03-17 22:06:57.580413977 +0100
++++ goobox_new/src/goo-application.c	2025-03-17 22:09:02.451427085 +0100
 @@ -387,6 +387,7 @@
  	G_APPLICATION_CLASS (goo_application_parent_class)->startup (application);
  
@@ -64,9 +72,9 @@ diff --unified --recursive --text '--exclude=*.po' official/src/goo-application.
  	gtk_window_set_default_icon_name ("goobox");
  
  	initialize_app_menu (application);
-diff --unified --recursive --text '--exclude=*.po' official/src/goo-player.c goobox/src/goo-player.c
---- official/src/goo-player.c	2025-03-16 20:14:17.991628257 +0100
-+++ goobox/src/goo-player.c	2024-11-24 21:38:46.788793688 +0100
+diff -ura goobox/src/goo-player.c goobox_new/src/goo-player.c
+--- goobox/src/goo-player.c	2025-03-17 22:06:57.581413977 +0100
++++ goobox_new/src/goo-player.c	2025-03-17 22:09:02.458427085 +0100
 @@ -38,7 +38,7 @@
  #define REFRESH_RATE 5
  #define PROGRESS_DELAY 400
@@ -76,9 +84,9 @@ diff --unified --recursive --text '--exclude=*.po' official/src/goo-player.c goo
  
  
  struct _GooPlayerPrivate {
-diff --unified --recursive --text '--exclude=*.po' official/src/goo-window.c goobox/src/goo-window.c
---- official/src/goo-window.c	2025-03-16 20:14:17.991628257 +0100
-+++ goobox/src/goo-window.c	2024-11-24 21:46:02.599167517 +0100
+diff -ura goobox/src/goo-window.c goobox_new/src/goo-window.c
+--- goobox/src/goo-window.c	2025-03-17 22:06:57.582413977 +0100
++++ goobox_new/src/goo-window.c	2025-03-17 22:09:02.467427086 +0100
 @@ -1183,11 +1183,14 @@
  		g_string_append_printf (info, "%s", window->priv->album->title);
  	}
@@ -111,9 +119,9 @@ diff --unified --recursive --text '--exclude=*.po' official/src/goo-window.c goo
  								     0.0));
  		gtk_scale_button_set_value (GTK_SCALE_BUTTON (button), goo_player_get_audio_volume (window->priv->player));
  		gtk_widget_show (button);
-diff --unified --recursive --text '--exclude=*.po' official/src/preferences.h goobox/src/preferences.h
---- official/src/preferences.h	2025-03-16 20:14:17.992628257 +0100
-+++ goobox/src/preferences.h	2024-10-13 12:40:51.394309374 +0200
+diff -ura goobox/src/preferences.h goobox_new/src/preferences.h
+--- goobox/src/preferences.h	2025-03-17 22:06:57.583413977 +0100
++++ goobox_new/src/preferences.h	2025-03-17 22:09:02.495427088 +0100
 @@ -54,4 +54,6 @@
  #define PREF_ENCODER_FLAC_COMPRESSION "flac-compression"
  #define PREF_ENCODER_MP3_QUALITY      "mp3-quality"
